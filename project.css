@@ -1,27 +1,31 @@
 section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Distribute space between items */
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 2%;
+    flex-wrap: nowrap; /* Prevent wrapping to new lines */
 }
 
-#o, #c, #t {
-    height: 300px;
-    width: 250px;
-    border: 1px solid black;
+.project {
+    text-align: center;
     margin-bottom: 20px;
 }
 
+.hoverimg {
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+}
+
 a {
-    display: block;
-    text-align: center;
+    display: inline-block;
     margin-top: 10px;
     background-color: purple;
     color: aliceblue;
     padding: 10px;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    visibility: visible; /* Ensure button is visible */
 }
 
 a:hover {
