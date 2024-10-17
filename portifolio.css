@@ -1,50 +1,66 @@
- body {
-            background-image: url('deepnn.jpg');
-            background-size: cover;
-            font-family: cursive;
-            color: yellow;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-        }
-        img {
-            width: 150px;
-            border-radius: 50%;
-        }
-        nav {
-            margin-right: 20px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 20px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            text-align: center;
-            margin-top: 10%;
-        }
-        #p1 {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-        #div2 {
-            margin-top: 20px;
-        }
-        #one {
-            background-color: #008CBA;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 20px;
-            border-radius: 5px;
-        }
-        #one:hover {
-            background-color: #005f73;
-        }
+/* General body styling */
+body {
+    background-image: url('deepnn.jpg');
+    background-size: cover;
+    font-family: cursive;
+    color: yellow;
+}
+
+/* Header section styling */
+header {
+    display: flex;
+    justify-content: space-between; /* Align image left and navigation right */
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for the image */
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Navigation bar styling */
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* Spacing between links */
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Hover effect for links */
+}
+
+/* Section with welcome message */
+section {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#p1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* Get Started button styling */
+#div2 {
+    margin-top: 20px;
+}
+
+#one {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#one:hover {
+    background-color: #005f73; /* Hover effect for the button */
+}
