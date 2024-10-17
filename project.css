@@ -1,7 +1,8 @@
 section {
     display: flex;
-    justify-content: space-around; /* Ensure even space between images */
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-top: 2%;
 }
 
@@ -14,10 +15,12 @@ section {
     height: 300px;
     width: 250px;
     border: 1px solid black;
+    display: block;
+    margin: 0 auto;
 }
 
 a {
-    display: block;
+    display: inline-block;
     margin-top: 10px;
     background-color: purple;
     color: aliceblue;
@@ -25,9 +28,5 @@ a {
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     width: 100px;
-    margin: 0 auto; /* Center the button */
-}
-
-a:hover {
-    border: 2px solid black;
-}
+    margin: 10px auto 0;
+    text-align: center;
