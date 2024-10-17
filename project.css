@@ -1,9 +1,8 @@
 section {
     display: flex;
-    justify-content: space-between; /* Distribute space between items */
+    justify-content: space-around; /* Ensure even space between images */
     align-items: center;
     margin-top: 2%;
-    flex-wrap: nowrap; /* Prevent wrapping to new lines */
 }
 
 .project {
@@ -18,14 +17,15 @@ section {
 }
 
 a {
-    display: inline-block;
+    display: block;
     margin-top: 10px;
     background-color: purple;
     color: aliceblue;
     padding: 10px;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    visibility: visible; /* Ensure button is visible */
+    width: 100px;
+    margin: 0 auto; /* Center the button */
 }
 
 a:hover {
