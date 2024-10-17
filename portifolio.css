@@ -1,46 +1,34 @@
-
-
-
-nav{
-   
-   
-    margin-top: -2.7%;
-    margin-left: 71.80%;
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 2%;
 }
-header{
-    border: 1px ridge white;
-    background-color: yellow;
-    height: 39px;
-      
+
+.project {
+    text-align: center;
+    margin-bottom: 20px;
 }
-#p1{
-    margin-left: 30%;
-    padding-top: 18%;
-    margin-bottom: -0.2%
-    
-    
+
+.hoverimg {
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    margin-bottom: 10px;
 }
-a{ 
+
+.view-btn {
+    display: inline-block;
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
     text-decoration: none;
-}
-a:hover{
-    background-color: white;
-
-
-}
-#one{
-    margin-left: 620px;
-    
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
 }
 
-
- img{
-    
-     margin-top:0.4%;
-     margin-left: 1.3%;
-     height: 32.80px;
-     width:32px;
-     
- }
- 
-
+.view-btn:hover {
+    border: 2px solid black;
+}
