@@ -16,26 +16,22 @@ span {
     color: darkblue;
 }
 
-/* Contact form section */
-#contact-wrapper {
+/* Container for the form and content */
+#contact-container {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    align-items: flex-start;
+    margin: 20px;
 }
 
-#contact-img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
-    margin-left: 10px;
+#form-container, #content-container {
+    width: 48%;
 }
 
-form {
+/* Contact form section */
+#form-container form {
     display: flex;
     flex-direction: column;
-    width: 45%;
-    margin-right: 20px;
 }
 
 input {
@@ -59,25 +55,22 @@ button:hover {
     background-color: darkblue;
 }
 
-/* Footer styling */
-#sec {
+/* Footer layout */
+#footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
     background-color: #142F63;
-    padding: 40px;
     color: white;
 }
 
-#footer-box {
-    display: flex;
-    justify-content: space-around;
+#quick-links, #contact-info, #social-section {
+    width: 30%;
 }
 
 h3 {
     font-size: 20px;
-    margin-bottom: 20px;
-}
-
-#par {
-    width: 200px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -86,7 +79,7 @@ ul {
 }
 
 ul li {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 a {
@@ -98,13 +91,14 @@ a:hover {
     color: lightblue;
 }
 
+/* Small icons for social media */
 .social-icons img {
-    height: 20px;
-    width: 20px;
-    margin: 10px;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
 }
 
-/* Contact info styling */
-.contact-info {
-    margin: 5px 0;
+/* Align social icons below contact info */
+#social-section {
+    margin-top: 10px;
 }
