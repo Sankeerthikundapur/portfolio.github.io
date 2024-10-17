@@ -9,15 +9,17 @@ body {
 /* Header section styling */
 header {
     display: flex;
-    justify-content: space-between; /* Align image left and navigation right */
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
 
-/* Styling for the image */
+/* Styling for the square image */
 img {
     width: 150px;
-    border-radius: 50%;
+    height: 150px;
+    object-fit: cover; /* Ensures the image stays square */
+    border-radius: 0; /* No border-radius to make it a perfect square */
 }
 
 /* Navigation bar styling */
@@ -26,20 +28,47 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: purple;
     text-decoration: none;
     margin: 0 15px; /* Spacing between links */
     font-size: 20px;
 }
 
 nav a:hover {
-    text-decoration: underline; /* Hover effect for links */
+    color: lightblue; /* Changes to light blue when hovered */
+}
+
+nav a:active {
+    color: red; /* Active link becomes red */
+}
+
+nav a:visited {
+    color: lightblue; /* Visited link becomes light blue */
 }
 
 /* Section with welcome message */
 section {
     text-align: center;
     margin-top: 10%;
+}
+
+/* Yellow line separator styling */
+#separator {
+    width: 100%;
+    height: 3px;
+    background-color: yellow;
+    margin: 20px 0; /* Space above and below the line */
+    animation: slide-in 2s forwards; /* Animation effect for the line */
+}
+
+/* Animation for yellow line sliding in from left to right */
+@keyframes slide-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 #p1 {
