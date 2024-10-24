@@ -80,7 +80,7 @@ body {
 
 footer {
   background-color: #002f6c;
-  color: white;
+  color:  #ecf8f5;;
   padding: 20px 0;
   margin-top: 20px;
 }
@@ -112,6 +112,7 @@ footer {
 
 .footer-section ul {
   list-style: none;
+  color:white;
 }
 
 .social-icons img {
