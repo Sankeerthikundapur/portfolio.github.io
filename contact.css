@@ -112,7 +112,7 @@ footer {
 
 .footer-section ul {
   list-style: none;
-  color:white;
+  c
 }
 
 .social-icons img {
@@ -120,8 +120,12 @@ footer {
   height: 30px;
   margin-right: 10px;
 }
+
 .quick-links a {
-    text-decoration: none; 
     color: white; /* Set link color to white */
-    font-size: 16px;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.quick-links a:hover {
+    text-decoration: underline; /* Add underline on hover for better visibility */
 }
