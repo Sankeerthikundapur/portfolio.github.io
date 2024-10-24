@@ -5,11 +5,9 @@
 }
 
 body {
-  font-family: 'Arial', cursive; /* Customize font as per your preference */
-  background-color: #aed9d1; /* Background color */
+  font-family: 'Arial', cursive; 
+  background-color: #aed9d1; 
 }
-
-/* Main container to hold image and form side by side */
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -17,9 +15,8 @@ body {
   padding: 20px;
 }
 
-/* Left section (Image) */
 .left-section {
-  flex: 1; /* Allow the image section to take up more space */
+  flex: 1; 
 }
 
 .contact-image {
@@ -27,7 +24,7 @@ body {
   height: auto;
 }
 
-/* Right section (Title and Form) */
+
 .right-section {
   flex: 1;
   display: flex;
@@ -36,7 +33,7 @@ body {
   padding: 20px;
 }
 
-/* Section Title */
+
 .title-section {
   text-align: center;
   margin-bottom: 20px;
@@ -44,15 +41,15 @@ body {
 
 .title {
   font-size: 28px;
-  color: #4b0082; /* Customize your title color */
+  color: #4b0082; 
 }
 
 .subtitle {
   font-size: 16px;
-  color: #333; /* Customize subtitle color */
+  color: #333; 
 }
 
-/* Contact Form */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -80,7 +77,7 @@ body {
   background-color: #555;
 }
 
-/* Footer layout */
+
 footer {
   background-color: #002f6c;
   color: white;
@@ -90,7 +87,7 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-around; /* Distribute sections side by side */
+  justify-content: space-around;
   align-items: flex-start;
   max-width: 1200px;
   margin: 0 auto;
