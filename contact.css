@@ -1,104 +1,125 @@
-/* General body styling */
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cursive", cursive;
+}
+
 body {
-    background-color: #9ED2BE;
-    font-family: cursive;
-    margin: 0;
+  background-color: #a4c3a2; /* Light greenish-blue background */
 }
 
-/* Header section */
-h1 {
-    text-align: center;
-    font-size: 30px;
-    color: purple;
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px;
 }
 
-span {
-    color: darkblue;
+/* Title Section */
+.title-section {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-/* Container for the form and content */
-#contact-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 20px;
+.title {
+  color: #4b0082; /* Indigo */
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-#form-container, #content-container {
-    width: 48%;
+.subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
 
-/* Contact form section */
-#form-container form {
-    display: flex;
-    flex-direction: column;
+/* Left Section: Image */
+.left-section {
+  flex: 1;
+  margin-right: 20px;
 }
 
-input {
-    height: 40px;
-    background-color: #8CABFF;
-    border-radius: 5px;
-    margin: 10px 0;
-    padding: 10px;
+.contact-image {
+  width: 500px;
+  height: auto;
 }
 
-button {
-    background-color: blue;
-    color: white;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+/* Right Section: Form */
+.right-section {
+  flex: 1;
 }
 
-button:hover {
-    background-color: darkblue;
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-/* Footer layout */
-#footer-section {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #142F63;
-    color: white;
+.input-field {
+  width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #000080; /* Dark blue border */
+  border-radius: 5px;
+  background-color: #add8e6; /* Light blue background */
 }
 
-#quick-links, #contact-info, #social-section {
-    width: 30%;
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #000080; /* Dark blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+.submit-btn:hover {
+  background-color: #4169e1; /* Lighter blue on hover */
 }
 
+/* Footer Styling */
+footer {
+  width: 100%;
+  background-color: #000080; /* Dark blue footer background */
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Footer Links */
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style: none;
 }
 
-ul li {
-    margin: 5px 0;
+li {
+  margin-bottom: 10px;
 }
 
-a {
-    color: white;
-    text-decoration: none;
+/* Social Media Icons */
+.social-icons a {
+  margin-right: 10px;
 }
 
-a:hover {
-    color: lightblue;
-}
-
-/* Small icons for social media */
 .social-icons img {
-    height: 15px;
-    width: 15px;
-    margin: 5px;
-}
-
-/* Align social icons below contact info */
-#social-section {
-    margin-top: 10px;
+  width: 20px;
+  height: 20px;
 }
